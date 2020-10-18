@@ -109,7 +109,7 @@
 
 - name: 'Install Grafana'
   apt:
-    deb: '/tmp/grafana_{{ grafanaVersion }}_armhf.deb'
+    deb: '/tmp/grafana_{{ grafanaVersion }}_arm64.deb'
 
 - name: Start Grafana service
   become: yes

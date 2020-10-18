@@ -26,7 +26,6 @@
       - gcc-8
       - g++-8
       - gcc-8-plugin-dev
-      - libc++-8-dev
       - gdb
       - lcov
 - name: "Cloning AFLplusplus v2.68c repository"
